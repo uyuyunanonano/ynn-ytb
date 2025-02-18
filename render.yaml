@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ynn-ytb
+    name: youtube-proxy-app
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
@@ -8,3 +8,5 @@ services:
     envVars:
       - key: FLASK_ENV
         value: production
+    regions:
+      - us-east-1
