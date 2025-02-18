@@ -8,5 +8,3 @@ services:
     envVars:
       - key: FLASK_ENV
         value: production
-    regions:
-      - us-east-1
